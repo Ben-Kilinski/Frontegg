@@ -15,7 +15,7 @@ export default function HomePage() {
 
     return (
         <div
-            className="min-h-screen bg-cover bg-center flex items-center justify-center px-4"
+             className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center"
             style={{
                 backgroundImage: `url(${rio})`,
             }}
