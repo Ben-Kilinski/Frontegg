@@ -20,7 +20,7 @@ export default function HomePage() {
                 backgroundImage: `url(${rio})`,
             }}
         >
-            <div className="absolute top-10 left-10 p-6 bg-black rounded-2xl shadow-2xl max-w-sm animate-fade-in">
+            <div className="absolute top-10 left-10 p-6 text- bg-white  rounded-2xl shadow-2xl max-w-sm animate-fade-in">
 
                 <img
                     className="w-20 h-20 rounded-full mb-4"
