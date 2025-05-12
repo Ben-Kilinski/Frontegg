@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+.homepage-container {
+  background-image: url('https://images.unsplash.com/photo-1524015368236-611b1647b47e');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
