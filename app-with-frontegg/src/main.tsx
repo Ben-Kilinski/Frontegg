@@ -4,8 +4,8 @@ import './index.css';
 import { FronteggProvider } from '@frontegg/react';
 
 const contextOptions = {
-  baseUrl: 'https://staging-benki.frontegg.com',
-  clientId: '5bbfc3df-0fa1-4cdd-876c-9fa93d032445', 
+  baseUrl: import.meta.env.VITE_FRONTEGG_BASE_URL!,
+  clientId: import.meta.env.VITE_FRONTEGG_CLIENT_ID!, 
   appId: '11a4449f-2dd9-45f1-86eb-99ab4c657bf9'
 };
 
