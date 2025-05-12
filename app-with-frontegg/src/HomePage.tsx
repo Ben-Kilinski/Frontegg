@@ -22,21 +22,21 @@ export default function HomePage() {
         >
             <div className="relative -top-[14rem] -left-[38rem] rounded-2xl shadow-2xl max-w-sm animate-fade-in">
                 <img
-                    className="w-20 h-20 rounded-full mb-4 mx-auto"
+                    className="w-20 h-20 rounded-full my-4 mx-auto"
                     src={user?.profilePictureUrl}
                     alt={user?.name}
                 />
                 <h2 className="text-xl font-semibold mb-4 text-center">Bem-vindo, {user?.name}!</h2>
-                <div className="flex justify-center gap-4">
+                <div className="flex justify-center gap-4 p-6">
                     <button
                         onClick={openAdminPortal}
-                        className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition"
+                        className="bg-gray-900  hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition"
                     >
                         ⚙ Settings
                     </button>
                     <button
                         onClick={logout}
-                        className="bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-4 rounded-lg transition"
+                        className="bg-gray-900 opacity-90 hover:bg-red-700 text-white font-medium py-2 px-4 rounded-lg transition"
                     >
                         🚪 Logout
                     </button>
