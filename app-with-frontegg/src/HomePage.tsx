@@ -15,20 +15,19 @@ export default function HomePage() {
 
     return (
         <div
-            className="relative min-h-screen w-full bg-cover bg-center bg-no-repeat"
+            className="relative min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center"
             style={{
                 backgroundImage: `url(${rio})`,
             }}
         >
-            <div className="absolute top-10 left-10 p-6 text- bg-white  rounded-2xl shadow-2xl max-w-sm animate-fade-in">
-
+            <div className="relative -top-[14rem] -left-[38rem] rounded-2xl shadow-2xl max-w-sm animate-fade-in">
                 <img
-                    className="w-20 h-20 rounded-full mb-4"
+                    className="w-20 h-20 rounded-full mb-4 mx-auto"
                     src={user?.profilePictureUrl}
                     alt={user?.name}
                 />
-                <h2 className="text-xl font-semibold mb-4 text-left">Bem-vindo, {user?.name}!</h2>
-                <div className="flex gap-4">
+                <h2 className="text-xl font-semibold mb-4 text-center">Bem-vindo, {user?.name}!</h2>
+                <div className="flex justify-center gap-4">
                     <button
                         onClick={openAdminPortal}
                         className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition"
@@ -45,5 +44,4 @@ export default function HomePage() {
             </div>
         </div>
     );
-
 }
