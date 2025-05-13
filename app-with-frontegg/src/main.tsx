@@ -8,7 +8,6 @@ const contextOptions = {
   clientId: import.meta.env.VITE_FRONTEGG_CLIENT_ID!,
   appId: '11a4449f-2dd9-45f1-86eb-99ab4c657bf9',
 
-  // ✅ HABILITA o Admin Portal
   adminPortal: {
     enabled: true,
   },
